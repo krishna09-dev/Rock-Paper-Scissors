@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="image/icon.png">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <div class="content">
+        <h1 class="heading">Rock Paper Scissors</h1>
+        <div class="buttons">
+            <button class="rock-button" onclick="gameLogic('rock');">
+                <img src="image/rock.png" alt="">
+            </button>
+            <button class="paper-button" onclick="gameLogic('paper');">
+                <img src="image/paper.png" alt="">
+            </button>
+            <button class="scissors-button" onclick="gameLogic('scissors');">
+                <img src="image/scissors.png" alt="">
+            </button>
+        </div>
+        <div class="moves"></div>
+        <div class="result"></div>
+        <button class="reset-score">Reset Score</button>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>
